@@ -1,0 +1,61 @@
+.pageDocs {
+    box-sizing: border-box;
+    padding: 0.5rem 0.25rem;
+    min-height: 100vh;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    color: #5273a5;
+}
+
+.pageDocs :nth-child(n) {
+    font-family: monospace;
+}
+.pageDocs *,
+.pageDocs *:before,
+.pageDocs *:after {
+    font-size: 0.875rem;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: default;
+}
+.pageDocs input,
+.pageDocs span {
+    display: block;
+}
+
+[data-content1]:before {
+    content: attr(data-content1);
+}
+[data-content2]:after {
+    content: attr(data-content2);
+}
+[data-content]:before {
+    content: attr(data-content);
+}
+.pageDocs * {
+    border: 3px solid transparent;
+}
+.pageDocs :nth-child(n) {
+    margin: 0.6rem;
+    padding: 0.2rem;
+    line-height: 1.2;
+}
+
+.pageDocs :nth-child(n) > :nth-child(n) {
+    margin-left: 2rem;
+}
+
+.pageDocs * {
+    transition: border 0.3s;
+}
+.pageDocs *:hover {
+    box-shadow: 0 0 0 1px;
+    border-radius: 5px;
+}
+
+.pageDocs input {
+    display: block;
+    border: 1px inset;
+}

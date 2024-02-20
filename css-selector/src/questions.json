@@ -1,0 +1,177 @@
+[
+    {
+        "selector": "h1",
+        "proposal": "h1",
+        "description": "모든 h1을 선택합니다."
+    },
+    {
+        "selector": "div",
+        "proposal": "div",
+        "description": "모든 div를 선택합니다."
+    },
+    {
+        "selector": "body",
+        "proposal": "*",
+        "description": "모든 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "#only",
+        "proposal": ".only",
+        "description": "class가 only인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "section:nth-child(1), h1",
+        "proposal": "section, h1",
+        "description": "쉼표(,)는 section과 h1를 다중으로 선택합니다."
+    },
+    {
+        "selector": ".remark",
+        "proposal": ".remark",
+        "description": "class가 remark인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "div.center",
+        "proposal": ".center",
+        "description": "class가 center인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "#label.center",
+        "proposal": "#label.center",
+        "description": "id가 label이면서 동시에 class가 center인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "section h2",
+        "proposal": "section h2",
+        "description": "section의 후손 엘리먼트 중 h2 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": ".show#only",
+        "proposal": ".show#only",
+        "description": "class가 show이면서 동시에 id가 only인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "article .item",
+        "proposal": "article .item",
+        "description": "article의 후손 엘리먼트 중 class가 item인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "header > p",
+        "proposal": "header > p",
+        "description": "> 는 header의 자식 엘리먼트 p를 선택합니다."
+    },
+    {
+        "selector": "article > p",
+        "proposal": "article + p",
+        "description": "+ 는 article과 인접한 형제 엘리먼트 p를 선택합니다"
+    },
+    {
+        "selector": "section ~ p",
+        "proposal": "section ~ p",
+        "description": "~ 는 section과 인접한 형제 엘리먼트 p를 모두 선택합니다."
+    },
+    {
+        "selector": "#container.mx-auto",
+        "proposal": "#container .mx-auto",
+        "description": "id가 container인 엘리먼트의 후손 엘리먼트 중 class가 mx-auto인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "#container .mx-auto",
+        "proposal": "#container.mx-auto",
+        "description": "id가 container이면서 동시에 class가 mx-auto인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "#container > .mx-auto",
+        "proposal": "#container > .mx-auto",
+        "description": "id가 container인 엘리먼트의 자식 엘리먼트 중 class가 mx-auto인 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "a[href]",
+        "proposal": "a[href]",
+        "description": "a 엘리먼트 중에서, href 속성을 갖는 모든 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "p[id='only']",
+        "proposal": "p[id='only']",
+        "description": "p 엘리먼트 중에서, id가 only인 속성을 갖는 모든 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "div[class='center']",
+        "proposal": "div[class='center']",
+        "description": "div 엘리먼트 중에서, class가 center인 속성을 갖는 모든 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "p:first-child, .block-out",
+        "proposal": "p:first-child",
+        "description": ":first-child는 p 엘리먼트 중에서, 첫 번째 자식 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "ul > li:last-child",
+        "proposal": "ul > li:last-child",
+        "description": "ul의 자식 엘리먼트 중에서, 마지막 자식 엘리먼트가 li인 것을 선택합니다."
+    },
+    {
+        "selector": "ul > li:nth-child(2)",
+        "proposal": "ul > li:nth-child(3)",
+        "description": "ul의 자식 엘리먼트 중에서, 세 번째 자식 엘리먼트가 li인 것을 선택합니다."
+    },
+    {
+        "selector": "section > p:nth-child(2n+1)",
+        "proposal": "section > p:nth-child(2n+1)",
+        "description": "section의 자식 엘리먼트 중에서, 홀수 번째 자식 엘리먼트가 p인 것을 선택합니다."
+    },
+    {
+        "selector": "footer > div",
+        "proposal": "footer > div:first-child",
+        "description": "footer의 자식 엘리먼트 중에서, 첫 번째 자식 엘리먼트가 div인 것을 선택합니다."
+    },
+    {
+        "selector": ".right",
+        "proposal": "div:last-child",
+        "description": "div 엘리먼트 중 마지막 자식 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "div > div:nth-child(4)",
+        "proposal": "div > div:nth-child(4)",
+        "description": "div의 자식 엘리먼트 중에서, 네 번째 자식 엘리먼트가 div인 것을 선택합니다."
+    },
+    {
+        "selector": "div:nth-last-child(2)",
+        "proposal": "div:nth-last-child(2)",
+        "description": "형제 엘리먼트 중에서, 마지막에서 두 번째 엘리먼트가 div인 것을 선택합니다."
+    },
+    {
+        "selector": "section > p:nth-last-child(2n+1), .remark",
+        "proposal": "section > p:nth-last-child(2n+1)",
+        "description": "section의 자식 엘리먼트 중에서, 마지막에서 홀수 번째 자식 엘리먼트가 p인 것을 선택합니다."
+    },
+    {
+        "selector": "p:first-of-type",
+        "proposal": "p:first-of-type",
+        "description": "p 엘리먼트의 형제 엘리먼트 중 첫 번째 p 엘리먼트를 선택합니다. (first-child와는 다르게 첫 번째 자식 엘리먼트가 아닌, 처음 등장하는 p를 선택합니다)"
+    },
+    {
+        "selector": "div:last-of-type",
+        "proposal": "div:last-of-type",
+        "description": "div 엘리먼트의 형제 엘리먼트 중 마지막 div 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "p:nth-of-type(2), .intro",
+        "proposal": "p:nth-of-type(2)",
+        "description": "p 엘리먼트의 형제 엘리먼트 중 두 번째 p 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": ".only, div > p",
+        "proposal": "p:nth-last-of-type(2)",
+        "description": "p 엘리먼트의 형제 엘리먼트 중 마지막에서 두 번째 p 엘리먼트를 선택합니다."
+    },
+    {
+        "selector": "p:not(.only)",
+        "proposal": "p:not(#only)",
+        "description": "p 엘리먼트 중에서, id가 only인 엘리먼트를 제외하고 모두 선택합니다."
+    },
+    {
+        "selector": "div:not(:nth-of-type(2))",
+        "proposal": "div:not(:nth-of-type(2))",
+        "description": "div 엘리먼트의 형제 엘리먼트 중 두 번째 div 엘리먼트를 제외한 모든 div 엘리먼트를 선택합니다."
+    }
+]

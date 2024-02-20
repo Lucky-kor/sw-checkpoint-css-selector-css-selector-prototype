@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sw-checkpoint-css-selector/static/css/main.ae83b28d.chunk.css",
+    "main.js": "/sw-checkpoint-css-selector/static/js/main.9749df43.chunk.js",
+    "main.js.map": "/sw-checkpoint-css-selector/static/js/main.9749df43.chunk.js.map",
+    "runtime-main.js": "/sw-checkpoint-css-selector/static/js/runtime-main.28bf0327.js",
+    "runtime-main.js.map": "/sw-checkpoint-css-selector/static/js/runtime-main.28bf0327.js.map",
+    "static/js/2.cfffea70.chunk.js": "/sw-checkpoint-css-selector/static/js/2.cfffea70.chunk.js",
+    "static/js/2.cfffea70.chunk.js.map": "/sw-checkpoint-css-selector/static/js/2.cfffea70.chunk.js.map",
+    "index.html": "/sw-checkpoint-css-selector/index.html",
+    "precache-manifest.18d7fc5ba34d4fc20ef8ac7162bf277d.js": "/sw-checkpoint-css-selector/precache-manifest.18d7fc5ba34d4fc20ef8ac7162bf277d.js",
+    "service-worker.js": "/sw-checkpoint-css-selector/service-worker.js",
+    "static/css/main.ae83b28d.chunk.css.map": "/sw-checkpoint-css-selector/static/css/main.ae83b28d.chunk.css.map",
+    "static/js/2.cfffea70.chunk.js.LICENSE.txt": "/sw-checkpoint-css-selector/static/js/2.cfffea70.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28bf0327.js",
+    "static/js/2.cfffea70.chunk.js",
+    "static/css/main.ae83b28d.chunk.css",
+    "static/js/main.9749df43.chunk.js"
+  ]
+}
